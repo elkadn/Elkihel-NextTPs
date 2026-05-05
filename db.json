@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Adnane",
+      "email": "adnane@gmail.com",
+      "password": "elkadn"
+    },
+    {
+      "id": "u2",
+      "name": "Sara",
+      "email": "sara@example.com",
+      "avatar": "/avatars/sara.png"
+    }
+  ],
+  "projects": [
+    {
+      "id": "2",
+      "name": "App Mobile",
+      "color": "#3498db"
+    },
+    {
+      "id": "3",
+      "name": "API Backend",
+      "color": "#2ecc71"
+    },
+    {
+      "id": "1777972515316",
+      "name": "lkjhgfdfghjk",
+      "color": "#3498db"
+    }
+  ],
+  "columns": [
+    {
+      "id": "todo",
+      "title": "À Faire",
+      "tasks": [
+        "Maquettes UI",
+        "Specs techniques"
+      ]
+    },
+    {
+      "id": "progress",
+      "title": "En Cours",
+      "tasks": [
+        "API Auth",
+        "Page Login"
+      ]
+    },
+    {
+      "id": "done",
+      "title": "Terminé",
+      "tasks": [
+        "Setup projet",
+        "Config ESLint"
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
